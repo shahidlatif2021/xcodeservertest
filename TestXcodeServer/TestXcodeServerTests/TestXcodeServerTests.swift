@@ -30,6 +30,11 @@ class TestXcodeServerTests: XCTestCase {
         let number = 4
         XCTAssertEqual(number, 2+2, "Adding 2 numbers are not valid")
     }
+    
+    func testNumberFail() {
+        let number = 6
+        XCTAssertEqual(number, 2+2, "Adding 2 numbers are not valid")
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
