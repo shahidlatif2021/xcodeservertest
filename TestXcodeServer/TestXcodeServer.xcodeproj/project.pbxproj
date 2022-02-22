@@ -49,6 +49,8 @@
 		A8DA38EB27C4BD7C00AF00C4 /* TestXcodeServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestXcodeServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8DA38EF27C4BD7C00AF00C4 /* TestXcodeServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXcodeServerUITests.swift; sourceTree = "<group>"; };
 		A8DA38F127C4BD7C00AF00C4 /* TestXcodeServerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestXcodeServerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D2ED91AC27C4FF2100E17A7A /* TestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestPlan.xctestplan; sourceTree = "<group>"; };
+		D2ED91AD27C4FF7600E17A7A /* TestXcodeServer.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = TestXcodeServer.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,8 @@
 		A8DA38CD27C4BD7800AF00C4 /* TestXcodeServer */ = {
 			isa = PBXGroup;
 			children = (
+				D2ED91AC27C4FF2100E17A7A /* TestPlan.xctestplan */,
+				D2ED91AD27C4FF7600E17A7A /* TestXcodeServer.xctestplan */,
 				A8DA38CE27C4BD7800AF00C4 /* AppDelegate.swift */,
 				A8DA38D027C4BD7800AF00C4 /* SceneDelegate.swift */,
 				A8DA38D227C4BD7800AF00C4 /* ViewController.swift */,

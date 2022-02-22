@@ -7,7 +7,25 @@
 		<key>TestXcodeServer.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>A8DA38CA27C4BD7800AF00C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8DA38E027C4BD7C00AF00C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8DA38EA27C4BD7C00AF00C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
