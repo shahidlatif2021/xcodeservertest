@@ -26,10 +26,13 @@ class TestXcodeServerUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-        sleep(2)
         XCTAssertTrue(false, "Intentionally Failed Test")
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func testFailed() throws {
+        XCTAssertFalse(true, "make test case failed")
     }
 
     func testLaunchPerformance() throws {
