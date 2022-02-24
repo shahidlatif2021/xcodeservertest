@@ -18,6 +18,10 @@
   },
   "testTargets" : [
     {
+      "enabled" : false,
+      "skippedTests" : [
+        "TestXcodeServerTests"
+      ],
       "target" : {
         "containerPath" : "container:TestXcodeServer.xcodeproj",
         "identifier" : "A8DA38E027C4BD7C00AF00C4",
@@ -25,6 +29,9 @@
       }
     },
     {
+      "skippedTests" : [
+        "TestXcodeServerUITestsLaunchTests"
+      ],
       "target" : {
         "containerPath" : "container:TestXcodeServer.xcodeproj",
         "identifier" : "A8DA38EA27C4BD7C00AF00C4",
