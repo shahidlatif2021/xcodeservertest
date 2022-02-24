@@ -32,7 +32,7 @@ class TestXcodeServerTests: XCTestCase {
     }
     
     func testNumberFail() {
-        let number = 6
+        let number = 4
         XCTAssertEqual(number, 2+2, "Adding 2 numbers are not valid")
     }
 
