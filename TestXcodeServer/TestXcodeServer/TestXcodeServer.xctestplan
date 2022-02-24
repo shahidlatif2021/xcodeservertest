@@ -30,6 +30,8 @@
     },
     {
       "skippedTests" : [
+        "TestXcodeServerUITests\/testFailed()",
+        "TestXcodeServerUITests\/testLaunchPerformance()",
         "TestXcodeServerUITestsLaunchTests"
       ],
       "target" : {
