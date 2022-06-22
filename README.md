@@ -9,7 +9,11 @@ The main objective of this assignment is measuring test engineering skills.
 
 1- Checkout code from https://github.com/shahidlatif2021/Splito and start implement following scenarios.
 
-2- Add 10 records for bills by randomly selecting total number of people and total bill.
+2- Verify that user cannot enter bill more than 10000.
+3- Verify that in View Bill History Screen there is no record
+4- Veirfy that in View Bill History Screen that total number of people is 0 by default
+5- Verify that in View Bill History screen that total bill is 0 by default.
+
 
 
 
