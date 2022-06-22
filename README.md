@@ -9,19 +9,21 @@ The main objective of this assignment is measuring test engineering skills.
 
 1- Checkout code from https://github.com/shahidlatif2021/Splito and start implement following scenarios.
 
-2- Verify Following scenarios when application first time install.
+2- Verify following scenarios when application first time install.
 - Verify that user cannot enter bill more than 10000.
-- Verify that in View Bill History Screen there is no record.
-- Veirfy that in View Bill History Screen that total number of people is 0 by default.
-- Verify that in View Bill History screen that total bill is 0 by default..
+- Verify that in "View Bill History" Screen there is no record.
+- Veirfy that in "View Bill History" Screen that total number of people is 0 by default.
+- Verify that in "View Bill History" screen that total bill is 0 by default..
 
 3- Create random number of people and bill amount for 10 records. i.e [[4, 1000], [2, 500], .......] where 4 is number of people and 1000 is bill in this example
 
-4- Add bills created in Step 3 in the application.
+4- Add bills created in Step 3 in the application in same order and verify that in it is showing in same order as entered in "View Bill History screen".
 
-5- Open "View Bills History" screen that correct count of Total People and Total Bill is shown by reading the values in this screen.
+5- Open "View Bills History" screen that correct count of Total People and Total Bill is shown by reading the values in this screen. Please see following screenshot.
 
 <img width="405" alt="Screen Shot 2022-06-22 at 4 53 46 PM" src="https://user-images.githubusercontent.com/94293020/175033925-b0bd7b8c-b165-4a83-97b6-a146b9ac5a00.png">
+
+You need to read each record data and count total number of people and total bill.
 
 
 ## Conditions:
