@@ -7,7 +7,7 @@ The main objective of this assignment is measuring test engineering skills.
 
 ### Main Test Scenario:
 
-1- Checkout code from https://github.com/shahidlatif2021/Splito and start implement following scenarios.
+1- Checkout code from https://github.com/shahidlatif2021/Splito and start implement following scenarios. create a test plan in iOS testing framework and add bill tip value. This value will be configurable. from test plan. You need to use this value from test plan and select this value while enetring the bill
 
 2- Verify following scenarios when application first time install.
 - Verify that user cannot enter bill more than 10000.
