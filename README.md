@@ -1,6 +1,6 @@
 ![](https://argaamplus.s3.amazonaws.com/159afd60-8669-4140-aa9e-fe46791f515d.png)
 
-## Native Apps QA - Code Challenge
+## Native Apps QA - XCUITest Code Challenge
 The main objective of this assignment is measuring test engineering skills. 
 
 ## Requirements and Output
@@ -34,11 +34,9 @@ The main objective of this assignment is measuring test engineering skills.
 
 
 ## Conditions:
-- iOS Native App
 - Code challenge to be done using Swift
 - For automated tests, assertions are the key. We want you to explore the application and add the assertions that you think are important.
 - Follow best practices for coding & automation (OOP, POM, reusable, clean, documented code).
-- Start Appium server Programatically
 - Test Report for the Automation (Optional)
 - Minimum Xcode version is 13.2.1
 
