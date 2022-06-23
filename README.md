@@ -1,7 +1,17 @@
 ![](https://argaamplus.s3.amazonaws.com/159afd60-8669-4140-aa9e-fe46791f515d.png)
 
 ## Native Apps QA - XCUITest Code Challenge
-The main objective of this assignment is measuring test engineering skills. 
+The main objective of this assignment is measuring test engineering skills.
+
+## Application Screens
+
+**Bill Entering Screen**
+
+![Screen Shot 2022-06-23 at 12 20 32 PM](https://user-images.githubusercontent.com/94293020/175251886-a06a55ff-a00a-4c80-b993-71fa3e736ed3.png)
+
+**View Bill History Screen**
+
+<img width="405" alt="Screen Shot 2022-06-22 at 4 53 46 PM" src="https://user-images.githubusercontent.com/94293020/175251965-929d5109-ad98-4e49-ae7c-5d7d4314ee25.png">
 
 ## Requirements and Output
 
@@ -19,14 +29,14 @@ The main objective of this assignment is measuring test engineering skills.
 
 1- **Verify following scenarios when application is installed for the first time** (*You can simulate this first time install by passing --clearData in the application launching Arguments*
 
-- Verify that user cannot enter bill more than 10000.
-- Verify that in "View Bill History" Screen there is no record.
-- Veirfy that in "View Bill History" Screen that total number of people is 0 by default.
-- Verify that in "View Bill History" screen that total bill is 0.00 by default.
+- Verify that in **Bill Entering Screen** user cannot enter bill more than 10000.
+- Verify that in **View Bill History** Screen there is no record.
+- Veirfy that in **View Bill History** Screen that total number of people is 0 by default.
+- Verify that in **View Bill History** screen that total bill is 0.00 by default.
 
 2- Create **Random** number of people and bill amount for 10 records. i.e [[4, 1000], [2, 500], .......] where 4 is **number of people** and 1000 is **bill total** in this example.
 
-3- Add bills created in Step 2 in the application and verify that **number of people** and **bill total** is showing for all records in **View Bill History screen**.
+3- Add bills created in Step 2 in the application and verify that **number of people** and **bill total** is showing for all records in **View Bill History** screen.
 
 4- Open **View Bills History** screen and add the individual count in the 10 rows for **bill total** and **number of people** to ensure that it matches the total count in the header. Please see following screenshot.
 
